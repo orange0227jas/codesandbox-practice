@@ -1,14 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Parcel Sandbox</title>
+    <title>TodoList_practice</title>
     <meta charset="UTF-8" />
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>編集テスト</p>
-
-    <script src="src/script_practice.js"></script>
+    <div class="input-area">
+      <input id="add-text" placeholder="入力エリア">
+        <button id="add-button">追加</button>
+      </input>
+    </div>
+   <div class="incomplete-area">
+      <p class="title">未完了のTodo</p>
+      <ul id="incomplete-list">
+        <div class="list-row">
+        </div>
+      </ul>
+    </div>
+    <div class="complete-area">
+      <p class="title" >END Todo</p>
+      <ul id="complete-list">
+        <div class="list-row">
+        </div>
+      </ul>
+    </div>
+    <script src="/src/todoList_practice.js"></script>
   </body>
 </html>
