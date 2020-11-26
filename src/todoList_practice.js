@@ -40,7 +40,7 @@ const createIncompleteList = (text) => {
     const text = addTarget.firstElementChild.innerText;
     //divの情報を初期化
     addTarget.textContent = null;
-    const li = document.createElement(li);
+    const li = document.createElement("li");
     //liタグのテキスト情報に上記で定義したtextを反映させる。
     li.innerText = text;
     // 戻すボタンを定義
